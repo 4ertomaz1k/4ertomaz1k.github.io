@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 
+    <script>
+        new WOW().init();
+        </script>
+
     <title>Туманности</title>
 
 
@@ -21,12 +25,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Kristi&family=LXGW+WenKai+TC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
+
+
+
 <!-- Section 1 -->
 <!--Шапка с видео-->
 <div class="section_1">
-    <p class="theme">Туманности</p>
+    <p class="theme anime_theme" >Туманности</p>
 
-<video autoplay muted loop src="fon.mp4"></video>
+<video class="video" autoplay muted loop src="fon.mp4"></video>
 
 </div>
 </head>
@@ -36,7 +43,7 @@
 <!-- Section 2 -->
 <div class="section_2">
 
-<p class="introduction_1">
+<p data-wow-offset="330" class="introduction_1 anime wow">
     Туманности - огромные рассеянные межзвездные облака пыли и газа, внутри которых располагается огромное количество звезд. Они выделяются своим излучением или поглощением света на общем фоне неба.
 </p>
 
@@ -65,7 +72,7 @@
 
 <img class="reflective_nebula" src="reflective_nebula.png" alt="">
 <p class="reflective_nebula_caption_1">Туманность М</p>
-<p class="reflective_nebula_caption_2">78</p>
+<p class="reflective_nebula_caption_2"><i>78</i></p>
 <p class="reflection_nebula_information">
 Такие туманности светятся не своим собственным светом, а за счет его отражения от близлежащих звезд. На фоне звездного неба они светлые и блестящие, а также имеют синий оттенок(так как рассеяние голубого цвета более эффективно, чем красного). Однако встречаются они довольно редко.
 </p>
