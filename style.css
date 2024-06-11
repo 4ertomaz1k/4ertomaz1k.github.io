@@ -1,15 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    margin-right: 0;
 }
 
 
 .section_1{
 position: relative;
-width: 1920px;
-height: 1080px;
+width: 100%;
+height: 100%;
 background: rgb(64, 64, 64);
 }
+
 
 .theme{
 position: absolute;
@@ -26,13 +28,17 @@ font-weight: 400;
 line-height: 217px;
 letter-spacing: 0%;
 text-align: left;
+z-index: 2;
+
 }
 
 .section_2{
 position: relative;
-width: 1920px;
+width: 100%;
 height: 1080px;
 background-color: black;
+justify-content: center;
+text-align: center;
 }
 
 .introduction_1{
@@ -51,10 +57,12 @@ background-color: black;
   letter-spacing: 0%;
   text-align: left;
   opacity: 1;
-  
   }
 
-
+.container{
+  min-height: 90px;
+  margin-bottom: 130px;
+}
 
 .introduction_2{
 position: absolute;
@@ -75,7 +83,7 @@ text-align: left;
 
 .section_3{
 position: relative;
-width: 1920px;
+width: 100%px;
 height: 5320px;
 background: black;
 }
@@ -326,7 +334,7 @@ width: 724px;
 height: 360px;
 left: 112px;
 right: 1084px;
-top: 2796px;
+top: 2830px;
 bottom: 2164px;
 color: rgb(255, 255, 255);
 font-family: Jost;
@@ -425,7 +433,7 @@ text-align: left;
 
 .section_4{
 position: relative;
-width: 1920px;
+width: 100%;
 height: 2950px;
 background: black;
 }
@@ -626,6 +634,37 @@ text-align: left;
 pointer-events: none;
 }
 
+.video-bg {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.video-bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+.effects {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.1);
+}
 
 
 /* Анимации */
@@ -664,3 +703,13 @@ animation: myAnim_theme 1.5s ease-out 0s 1 alternate backwards;
             opacity: 1;
         }
     }
+
+
+    /* Адаптация */
+
+
+@media (max-width: 1400px) {
+  .theme{
+    font-size: 50px;
+  }
+}
