@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    margin-right: 0;
+  margin: 0;
+  padding: 0;
+  margin-right: 0;
 }
 
 
@@ -14,62 +14,73 @@ background: rgb(64, 64, 64);
 
 
 .theme{
-position: absolute;
-width: 756px;
-height: 189px;
-left: 104px;
-right: 1060px;
-top: 681px;
-bottom: 210px;
-color: rgb(255, 255, 255);
-font-family: Jost;
-font-size: 200px;
-font-weight: 400;
-line-height: 217px;
-letter-spacing: 0%;
-text-align: left;
-z-index: 2;
-
-}
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 225px;
+  font-weight: 400;
+  line-height: 170px;
+  letter-spacing: 0%;
+  text-align: left;
+  z-index: 2;
+  position: absolute;
+  width: 50%;
+  height: 189px;
+  left: 104px;
+  right: 1060px;
+  top: 681px;
+  bottom: 210px;
+  
+  
+  }
+  
 
 .section_2{
 position: relative;
 width: 100%;
 height: 1080px;
 background-color: black;
-justify-content: center;
-text-align: center;
 }
+
+.gradient{
+position: absolute;
+width: 1920px;
+height: 349px;
+left: 0px;
+top: 731px;
+z-index: 3;
+background-image: linear-gradient(180deg, transparent, black);
+
+}
+
+
 
 .introduction_1{
-  position: absolute;
-  width: 697px;
-  height: 575px;
-  left: 180px;
-  right: 1043px;
-  top: 253px;
-  bottom: 252px;
-  color: rgb(255, 255, 255);
-  font-family: Jost;
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 72px;
-  letter-spacing: 0%;
-  text-align: left;
-  opacity: 1;
-  }
+position: absolute;
+width: 697px;
+height: 575px;
+left: 185px;
+top: 253px;
+bottom: 252px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 50px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
 
-.container{
-  min-height: 90px;
-  margin-bottom: 130px;
 }
+
+
+
+
 
 .introduction_2{
 position: absolute;
 width: 662px;
 height: 503px;
-left: 1078px;
-right: 180px;
+right: 100px;
 top: 280px;
 bottom: 297px;
 color: rgb(255, 255, 255);
@@ -79,6 +90,8 @@ font-weight: 400;
 line-height: 72px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
+
 }
 
 .section_3{
@@ -120,7 +133,9 @@ font-weight: 400;
 line-height: 72px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
+
 
 
 
@@ -139,6 +154,7 @@ font-weight: 400;
 line-height: 72px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 .dark_nebula{
@@ -149,14 +165,22 @@ left: 65px;
 right: 1029px;
 top: 560px;
 bottom: 4246px;
+background-image: url(dark_nebula.png);
+opacity: 0;
+
 }
 
 .reflective_nebula{
 position: absolute;
+width: 826px;
+height: 514px;
 left: 1029px;
 right: 65px;
 top: 560px;
 bottom: 4246px;
+background-image: url(reflective_nebula.png);
+opacity: 0;
+
 }
 
 
@@ -176,6 +200,7 @@ font-weight: 300;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -195,6 +220,7 @@ font-weight: 300;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -213,6 +239,7 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0%;
 text-align: left; 
+opacity: 0;
 }
 
 .dark_nebula_information{
@@ -230,6 +257,7 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 .reflection_nebula_information{
@@ -247,6 +275,7 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -265,6 +294,7 @@ font-weight: 400;
 line-height: 79px;
 letter-spacing: 0%;
 text-align: left;
+
 }
 
 
@@ -276,6 +306,8 @@ left: 65px;
 right: 1029px;
 top: 2116px;
 bottom: 2689px;
+background-image: url(emission_nebula_of_Keel.png);
+opacity: 0;
 }
 
 
@@ -283,10 +315,14 @@ bottom: 2689px;
 
 .emission_nebula_butterfly{
 position: absolute;
+width: 826px;
+height: 514px;
 left: 1029px;
 right: 65px;
 top: 2116px;
 bottom: 2690px;
+background-image: url(emission_nebula_butterfly.png);
+opacity: 0;
 }
 
 
@@ -306,6 +342,7 @@ font-weight: 300;
 line-height: 31px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -325,6 +362,7 @@ font-weight: 300;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -343,6 +381,7 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -361,6 +400,7 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -391,6 +431,8 @@ left: 216px;
 right: 216px;
 top: 3835px;
 bottom: 765px;
+background-image: url(supernova_remnant_in_the_sails.png);
+opacity: 0;
 }
 
 
@@ -410,6 +452,7 @@ font-weight: 300;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -428,6 +471,7 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -454,6 +498,7 @@ font-weight: 400;
 line-height: 101px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -473,14 +518,15 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
 
 .interesting_fact_2{
 position: absolute;
-width: 1031px;
-height: 105px;
+width: 1600px;
+height: 65px;
 left: 115px;
 right: 774px;
 top: 431px;
@@ -492,17 +538,18 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
 
 .interesting_fact_3{
 position: absolute;
-width: 1486px;
+width: 1626px;
 height: 100px;
 left: 115px;
 right: 319px;
-top: 606px;
+top: 566px;
 bottom: 2244px;
 color: rgb(255, 255, 255);
 font-family: Jost;
@@ -511,17 +558,20 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
+
+
 }
 
 
 
 .interesting_fact_4{
 position: absolute;
-width: 1724px;
+width: 1620px;
 height: 203px;
 left: 115px;
 right: 81px;
-top: 776px;
+top: 736px;
 bottom: 1971px;
 color: rgb(255, 255, 255);
 font-family: Jost;
@@ -530,6 +580,8 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
+
 }
 
 
@@ -539,7 +591,7 @@ width: 826px;
 height: 711px;
 left: 115px;
 right: 979px;
-top: 1115px;
+top: 1075px;
 bottom: 1130px;
 color: rgb(255, 255, 255);
 font-family: Jost;
@@ -548,6 +600,7 @@ font-weight: 400;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -557,8 +610,10 @@ width: 721px;
 height: 667px;
 left: 1120px;
 right: 79px;
-top: 1124px;
+top: 1084px;
 bottom: 1159px;
+background-image: url(boomerang_nebula.png);
+opacity: 0;
 }
 
 .boomerang_nebula_caption{
@@ -567,7 +622,7 @@ width: 267px;
 height: 34px;
 left: 1347px;
 right: 306px;
-top: 1814px;
+top: 1774px;
 bottom: 1102px;
 color: rgba(255, 255, 255, 0.5);
 font-family: Alegreya Sans;
@@ -577,6 +632,7 @@ font-weight: 300;
 line-height: 31px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -588,7 +644,7 @@ width: 687px;
 height: 652px;
 left: 1132px;
 right: 105px;
-top: 2057px;
+top: 2017px;
 bottom: 238px;
 color: rgb(255, 255, 255);
 font-family: Jost;
@@ -597,6 +653,7 @@ font-weight: 300;
 line-height: 51px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -606,8 +663,10 @@ width: 970px;
 height: 577px;
 left: 80px;
 right: 853px;
-top: 2058px;
+top: 2018px;
 bottom: 261px;
+background-image: url(tarantula_Nebula.png);
+opacity: 0;
 }
 
 
@@ -617,7 +676,7 @@ width: 261px;
 height: 43px;
 left: 425px;
 right: 1234px;
-top: 2658px;
+top: 2618px;
 bottom: 249px;
 color: rgba(255, 255, 255, 0.5);
 font-family: Alegreya Sans;
@@ -627,6 +686,7 @@ font-weight: 300;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+opacity: 0;
 }
 
 
@@ -635,35 +695,35 @@ pointer-events: none;
 }
 
 .video-bg {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+height: 100vh;
+width: 100%;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
 }
 
 .video-bg video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+width: 100%;
+height: 100vh;
+object-fit: cover;
 }
 
 
 .effects {
-  position: absolute;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0,0,0,0.1);
+position: absolute;
+object-fit: cover;
+top: 0;
+left: 0;
+z-index: 2;
+width: 100%;
+height: 100vh;
+background-color: rgba(0,0,0,0.1);
 }
 
 
@@ -672,31 +732,47 @@ pointer-events: none;
 
 
 .anime_theme{
-animation: myAnim_theme 1.5s ease-out 0s 1 alternate backwards;
+animation: myAnim_theme 1.8s ease-out 0s 1 alternate forwards;
 }
-  
-  @keyframes myAnim_theme {
-	0% {
-		opacity: 0;
-		transform: translateY(-32%);
-	}
 
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
+@keyframes myAnim_theme {
+0% {
+  opacity: 0;
+  transform: translateY(-32%);
+}
+
+100% {
+  opacity: 1;
+  transform: translateY(0);
+}
 }
 
 
 
 .anime{
-    animation: Anim 1s ease-out 0s 1 alternate forwards;
+  animation: Anime 1s ease-out 0s  1 alternate forwards;
+  }
+    
+    @keyframes Anime {
+      0% {
+          opacity: 0;
+          transform: translateY(50%);
+      }
+  
+      100% {
+          opacity: 1;
+      }
+  }
+
+
+  .anime_2{
+    animation: Anime_2 1s ease 0s  1 alternate forwards;
     }
       
-      @keyframes Anim {
+      @keyframes Anime_2 {
         0% {
             opacity: 0;
-            transform: translateY(50%);
+            transform: translateY(100%);
         }
     
         100% {
@@ -705,11 +781,142 @@ animation: myAnim_theme 1.5s ease-out 0s 1 alternate backwards;
     }
 
 
-    /* Адаптация */
+    .anime_3{
+      animation: Anime_3 0.7s ease-out 0s 1 alternate forwards;
+      }
+      
+      @keyframes Anime_3 {
+      0% {
+        opacity: 0;
+      }
+      
+      100% {
+        opacity: 1;
+        transform: translateY(25px);
+      }
+      }
+
+    .anime_4{
+      animation: Anime_4 1.5s ease-out 0s 1 alternate forwards;
+      }
+      
+      @keyframes Anime_4 {
+      0% {
+        opacity: 0;
+        transform: translateY(-75px);
+      }
+      
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      }   
+    
+
+
+
+      .anime_5{
+      animation: Anime_5 1s ease 0s 1 normal forwards;
+      }
+
+      @keyframes Anime_5 {
+        0% {
+          transform: rotate(0);
+          opacity: 0;
+        }
+      
+        100% {
+          transform: rotate(360deg);
+          opacity: 1;
+        }
+      }
+
+
+      .anime_6{
+        animation: Anime_6 2s ease 0s 1 normal forwards;
+      }
+
+      @keyframes Anime_6 {
+        0% {
+          opacity: 0;
+          transform: translateX(-50px);
+        }
+      
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+
+      
+      .anime_7{
+        animation: Anime_7 2s ease 0s 1 normal forwards;
+      }
+
+      @keyframes Anime_7 {
+        0% {
+          opacity: 0;
+          transform: translateX(50px);
+        }
+      
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .anime_8{
+        animation: Anime_8 1s ease 0s 1 normal forwards;
+      }
+
+      @keyframes Anime_8 {
+        0% {
+          opacity: 0;
+          transform: translateX(50px);
+        }
+      
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      
+      .anime_9{
+        animation: anime_9 1s ease 0s 1 normal forwards;
+      }
+
+      @keyframes anime_9 {
+          0% {
+            transform: scale(0.7);
+          }
+        
+          100% {
+            transform: scale(1.15);
+          }
+        }
+
+
+        .anime_10{
+          animation: anime_10 1s ease 0s 1 normal forwards;
+        }
+  
+        @keyframes anime_10 {
+            0% {
+              transform: scale(0.7);
+            }
+          
+            100% {
+              transform: scale(1.15);
+            }
+          }
+
+  /* Адаптация */
 
 
 @media (max-width: 1400px) {
-  .theme{
-    font-size: 50px;
-  }
+.theme{
+  font-size: 50px;
+}
 }
