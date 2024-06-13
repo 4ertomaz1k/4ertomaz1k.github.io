@@ -13,6 +13,7 @@ background: rgb(64, 64, 64);
 }
 
 
+
 .theme{
   color: rgb(255, 255, 255);
   font-family: Jost;
@@ -25,14 +26,19 @@ background: rgb(64, 64, 64);
   position: absolute;
   width: 50%;
   height: 189px;
-  left: 104px;
+  /* left: 104px;
   right: 1060px;
   top: 681px;
   bottom: 210px;
+   */
+  top: 65%;
+  left: 6%;
   
   
-  }
-  
+  }  
+
+
+
 
 .section_2{
 position: relative;
@@ -41,16 +47,36 @@ height: 1080px;
 background-color: black;
 }
 
+
+/* 
 .gradient{
 position: absolute;
-width: 1920px;
-height: 349px;
-left: 0px;
-top: 731px;
+width: 100%;
+height: 50%;
+
+top: 80%;
 z-index: 3;
 background-image: linear-gradient(180deg, transparent, black);
+background-color: red;
+opacity: 0.5;
+} */
 
-}
+
+
+
+/* !!!! */
+
+/* .gradient{
+  position: absolute;
+  width: 1920px;
+  height: 349px;
+  left: 0px;
+  top: 731px;
+  z-index: 3;
+  background-image: linear-gradient(180deg, transparent, black);
+  }
+   */
+
 
 
 
@@ -74,13 +100,12 @@ opacity: 0;
 
 
 
-
-
 .introduction_2{
 position: absolute;
 width: 662px;
 height: 503px;
-right: 100px;
+left: 1078px;
+right: 180px;
 top: 280px;
 bottom: 297px;
 color: rgb(255, 255, 255);
@@ -91,8 +116,8 @@ line-height: 72px;
 letter-spacing: 0%;
 text-align: left;
 opacity: 0;
-
 }
+
 
 .section_3{
 position: relative;
@@ -912,11 +937,707 @@ animation: myAnim_theme 1.8s ease-out 0s 1 alternate forwards;
             }
           }
 
+
+
   /* Адаптация */
 
 
-@media (max-width: 1400px) {
-.theme{
-  font-size: 50px;
+
+/* 2к моник */
+
+@media (min-width: 2500px) {
+
+  /* Секция 1 */
+  .theme{
+    font-size: 325px;
+    top: 65%;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* Секция 2 */
+
+.section_2{
+position: relative;
+width: 100%;
+height: 1440px;
+background: black;
+
 }
+
+  
+  .introduction_1{
+position: absolute;
+width: 830px;
+height: 705px;
+left: 390px;
+right: 1340px;
+top: 368px;
+bottom: 367px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 60px;
+font-weight: 400;
+line-height: 87px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+  }
+
+.introduction_2{
+position: absolute;
+width: 786px;
+height: 647px;
+left: 1516px;
+right: 258px;
+top: 425px;
+bottom: 368px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 60px;
+font-weight: 400;
+line-height: 87px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+}
+
+
+
+/* Секция 3 */
+
+.section_3{
+position: relative;
+width: 100%;
+height: 6830px;
+background: black;
+}
+
+.type_nebulat{
+position: absolute;
+width: 754px;
+height: 143px;
+left: 903px;
+right: 903px;
+top: 330px;
+bottom: 6357px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 96px;
+font-weight: 400;
+line-height: 139px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.dark_nebulat{
+position: absolute;
+width: 529px;
+height: 90px;
+left: 411px;
+right: 1620px;
+top: 727px;
+bottom: 6013px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 60px;
+font-weight: 400;
+line-height: 87px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+}
+
+.reflection_nebulat{
+position: absolute;
+width: 763px;
+height: 94px;
+left: 1502px;
+right: 295px;
+top: 723px;
+bottom: 6013px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 60px;
+font-weight: 400;
+line-height: 87px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+}
+
+
+.dark_nebula{
+position: absolute;
+width: 988px;
+height: 586px;
+left: 182px;
+right: 1390px;
+top: 907px;
+bottom: 5337px;
+background-image: url(dark_nebula2k.png);
+opacity: 0;
+}
+
+.reflective_nebula{
+position: absolute;
+width: 988px;
+height: 586px;
+left: 1390px;
+top: 907px;
+background-image: url(reflective_nebula2k.png);
+opacity: 0;
+}
+
+
+.dark_nebula_caption{
+position: absolute;
+width: 415px;
+height: 38px;
+left: 468px;
+right: 1677px;
+top: 1523px;
+bottom: 5269px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Alegreya Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+  }
+
+  .reflective_nebula_caption_1{
+position: absolute;
+width: 219px;
+height: 38px;
+left: 1760px;
+right: 581px;
+top: 1523px;
+bottom: 5269px;
+color: rgba(255, 255, 255, 0.6);
+font-family: Alegreya Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+    }
+
+
+
+
+.reflective_nebula_caption_2{
+position: absolute;
+width: 38px;
+height: 35px;
+left: 1966px;
+right: 553px;
+top: 1526px;
+bottom: 5270px;
+color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+      }
+
+
+
+
+.dark_nebula_information{
+position: absolute;
+width: 858px;
+height: 438px;
+left: 247px;
+right: 1455px;
+top: 1664px;
+bottom: 4728px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+
+.reflection_nebula_information{
+position: absolute;
+width: 872px;
+height: 441px;
+left: 1458px;
+right: 230px;
+top: 1671px;
+bottom: 4718px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+  }
+
+
+
+.emission_nebulat{
+position: absolute;
+width: 721px;
+height: 94px;
+left: 920px;
+right: 919px;
+top: 2612px;
+bottom: 4124px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 63.25px;
+font-weight: 400;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+
+
+.emission_nebula_of_Keel{
+position: absolute;
+width: 988px;
+height: 586px;
+left: 198px;
+right: 1374px;
+top: 2955px;
+bottom: 3289px;
+  background-image: url(emission_nebula_of_Keel2k.png);
+  opacity: 0;
+  }
+
+
+
+.emission_nebula_butterfly{
+position: absolute;
+width: 988px;
+height: 585;
+left: 1375px;
+right: -388px;
+top: 2954.5px;
+bottom: 2887.5px;
+background-image: url(emission_nebula_butterfly2k.png);
+opacity: 0;
+  }
+
+
+
+.emission_nebula_of_Keel_caption{
+/* Туманность Киля */
+position: absolute;
+width: 267px;
+height: 42px;
+left: 559px;
+right: 1734px;
+top: 3571px;
+bottom: 3217px;
+color: rgba(255, 255, 255, 0.6);
+font-family: Alegreya Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+
+
+.emission_nebula_butterfly_caption{
+/* Туманность бабочка */
+position: absolute;
+width: 302px;
+height: 44px;
+left: 1718px;
+right: 540px;
+top: 3570px;
+bottom: 3216px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Alegreya Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+  }
+
+
+.emission_nebula_of_Keel_information{
+position: absolute;
+width: 802px;
+height: 452px;
+left: 292px;
+right: 1466px;
+top: 3716px;
+bottom: 2662px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+
+
+.emission_nebula_butterfly_information{
+/* Разновидностью эмиссионных туманностей являются планетарные туманности. Они возникают, когда звезда среднего размера(красный гигант или сверхгигант) находится на заключительной стадии своей жизни. Звезда теряет внешние слои газа, которые образуют облако вокруг нее. Затем в центре этого облака образуется белый карлик, который излучает ультрафиолетовое излучение и заставляет газ светиться, образуя планетарную туманность. */
+position: absolute;
+width: 888px;
+height: 620px;
+left: 1441px;
+right: 231px;
+top: 3705px;
+bottom: 2509px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+
+
+
+.nebula_created_by_shock_waves{
+/* Туманности созданные ударными волнами */
+position: absolute;
+width: 1209px;
+height: 105px;
+left: 675px;
+right: 676px;
+top: 4821px;
+bottom: 1904px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 63.25px;
+font-weight: 400;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+
+.supernova_remnant_in_the_sails{
+position: absolute;
+width: 1579px;
+height: 811px;
+left: 490px;
+right: 491px;
+top: 5174px;
+bottom: 845px;
+background-image: url(supernova_remnant_in_the_sails2k.png);
+opacity: 0;
+  }
+
+
+
+
+.nebula_created_by_shock_waves_caption{
+/* Туманность, остаток сверхновой в Парусах */
+position: absolute;
+width: 617px;
+height: 45px;
+left: 971px;
+right: 972px;
+top: 6015px;
+bottom: 770px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Alegreya Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+  }
+
+
+.nebula_created_by_shock_waves_information{
+position: absolute;
+width: 1602px;
+height: 542px;
+left: 494px;
+right: 464px;
+top: 6171px;
+bottom: 117px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+
+
+
+
+/* Секция 4 */
+
+
+.section_4{
+/* Section 4 */
+position: relative;
+width: 100%;
+height: 3596px;
+background: black;
+  }
+
+
+
+.interesting_facts{
+position: absolute;
+width: 699px;
+height: 105px;
+left: 931px;
+right: 930px;
+top: 383px;
+bottom: 3108px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 84px;
+font-weight: 400;
+line-height: 121px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+  }
+
+
+
+
+.interesting_fact_1{
+position: absolute;
+width: 1107px;
+height: 132px;
+left: 300px;
+right: 1153px;
+top: 738px;
+bottom: 2726px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+
+
+
+.interesting_fact_2{
+position: absolute;
+width: 1600px;
+height: 120px;
+left: 300px;
+right: 660px;
+top: 940px;
+bottom: 2536px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+
+
+.interesting_fact_3{
+position: absolute;
+width: 1503px;
+height: 120px;
+left: 300px;
+right: 757px;
+top: 1130px;
+bottom: 2346px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+    
+
+.interesting_fact_4{
+/* Раньше ученые не имели четкого представление о туманностях и называли ею всякий неподвижный в космосе протяжённый объект. И только лишь в 1920-е годы выяснилось, что среди туманностей много галактик (например, Туманность Андромеды). После этого термин «туманность» стал пониматься более узко, в указанном выше смысле. */
+position: absolute;
+width: 1731px;
+height: 245px;
+left: 300px;
+right: 529px;
+top: 1320px;
+bottom: 2031px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+  
+  }
+
+
+.interesting_fact_5{
+position: absolute;
+width: 1005px;
+height: 868px;
+left: 300px;
+right: 1255px;
+top: 1653px;
+bottom: 1075px;
+opacity: 0;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+
+.boomerang_nebula{
+/* image 9 */
+position: absolute;
+width: 788px;
+height: 741px;
+left: 1452px;
+right: 320px;
+top: 1716px;
+bottom: 1139px;
+background-image: url(boomerang_nebula2k.png);
+opacity: 0;
+  }
+
+
+.boomerang_nebula_caption{
+/* Туманность Бумеранг */
+position: absolute;
+width: 326px;
+height: 44px;
+left: 1683px;
+right: 551px;
+top: 2487px;
+bottom: 1065px;
+color: rgba(255, 255, 255, 0.6);
+font-family: Alegreya Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+  opacity: 0;
+  }
+    
+
+.interesting_fact_6{
+position: absolute;
+width: 864px;
+height: 694px;
+left: 1425px;
+right: 301px;
+top: 2661px;
+bottom: 241px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 42px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+  }
+
+
+.tarantula_Nebula{
+position: absolute;
+width: 1040px;
+height: 643px;
+left: 262px;
+right: 1178px;
+top: 2678px;
+bottom: 275px;
+background-image: url(tarantula_Nebula2k.png);
+opacity: 0;
+}
+
+
+.tarantula_Nebula_caption{
+/* Туманность Тарантул */
+position: absolute;
+width: 304px;
+height: 45px;
+left: 630px;
+right: 1546px;
+top: 3351px;
+bottom: 200px;
+color: rgba(255, 255, 255, 0.6);
+font-family: Alegreya Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0;
+}
+
+/* 111111111111111111111111111111111111111111111111111111111111111111 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
